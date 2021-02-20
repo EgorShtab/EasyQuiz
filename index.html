@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EasyQuiz</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+        <div class="upperblock">
+            <div class="upperblock_leftpart">
+                <p class="upperblock_leftpart_logo wow animate__animated animate__fadeInLeft" data-wow-offset="30" data-wow-delay=".3s">Easy<span style="color:#A3DC00;">Quiz.</span></p>
+                <p class="upperblock_text wow animate__animated animate__backInDown" data-wow-offset="30" data-wow-delay=".7s" id="AboutUs">О нас</p>
+                <p class="upperblock_text wow animate__animated animate__backInDown" data-wow-offset="30" data-wow-delay=".9s" id="Possibilities">Возможности</p>
+                <p class="upperblock_text wow animate__animated animate__backInDown" data-wow-offset="30" data-wow-delay=".11s" id="Contacts">Контакты</p>
+            </div>
+            <div class="upperblock_rightpart">
+                <p class="upperblock_text_login" id="Login">Войти</p>
+                <button class="upperblock_text_registration " id="Register"><a href="#">Регистрация</a></button>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="maincontent_text  wow animate__animated animate__fadeInUp" data-wow-delay="1s" >
+                <p class= "maincontent_text_tittle">Проводите время с пользой!</p>
+                <p class= "maincontent_text_description">Ученые подтвердили, что ежедневное прохождение викторин повышает активность мозга на 30%, а также увеличивает общую производительность организма.</p>
+                <button class="maincontent_button"> <a href="https://live24.ru/obschestvo/22731-o-polze-onlajn-viktorin-na-samoizoljacii-vyskazalis-psihologi.html"> Ссылка на статью с подтверждением </a></button>
+            </div>
+            <div class=".maincontent_img">
+                <img class="wow animate__animated animate__zoomIn" data-wow-delay=".1s" src="img/brains.png">
+            </div>
+        </div>
+
+        <div class="popup" id="AboutUsPopup">
+            <div class="popup_content wow animate__animated animate__zoomIn">
+                <div class="popup_title">
+                    <div class="popup_title_text"><b>О нас</b></div>
+                    <div class="popup_title_img"><img id="IPointerObject" src="img/close.svg"></div>
+                </div>
+                <div class="popup_description">
+                    <p>
+                        Мы стартап, который позволяет сочитать на одном сервисе взаимодействие обычных пользователей и бизнеса.Для пользователей мы предлагаем прохождение увлекательных анкет, а бизнесу возможность упростить работу HR-специалистам в тестировании сотрудников или потенциальных кандидатов.
+                    </p>
+                    <p>
+                        Несмотря на то, что мы еще совсем молоды, у нас есть что Вам предложить!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="PossibilitiesPopUp">
+            <div class="popup_content wow animate__animated animate__zoomIn">
+                <div class="popup_title">
+                    <div class="popup_title_text"><b>Возможности</b></div>
+                    <div class="popup_title_img"><img id="IPointerObject3" src="img/close.svg"></div>
+                </div>
+                <div class="popup_description">
+                    <p>
+                        EasyQuiz- это инновационная платформа для пользователей и бизнеса.<br><br> Для пользователей:<br>Платформа предоставляет возможность проходить тесты в формате викторин, а также получать за них баллы и наблюдать свою статистику, такой подход позволяет развивать активность мозга, отвечающую за интуицию и сообразительность.<br><br>
+                        Для бизнеса:<br>В EasyQuiz предусмотрена функция создания пользовательских тестов, которые в последствии могут использоваться HR-специалистам для привлечения сотрудников и проверки их знаний в той или иной области. HR-специалист может наблюдать статистику по пройденным тестам в разделе "Мои тесты" личного кабинета.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="ContactPopup">
+            <div class="popup_content wow animate__animated animate__zoomIn">
+                <div class="popup_title">
+                    <div class="popup_title_text"><b>Контактная информация</b></div>
+                    <div class="popup_title_img"><img id="IPointerObject2" src="img/close.svg"></div>
+                </div>
+                <div class="popup_description">
+                    <p>
+                        С отделом разработки Вы можете связаться по адресу электронной почты easyquiz@mail.ru, хотя вероятность того, что мы ответим очень мала. На момент написания этого блока адрес еще не создан ;)<br><br>
+                        У нас нет технической поддержки, как никак EasyQuiz всего лишь проект для сдачи дисциплины в ВУЗе, не обижайтесь на нас.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="LoginPopup">
+            <div class="popup_content wow animate__animated animate__backInRight popup_registration">
+                <div class="popup_title">
+                    <div class="popup_title_text" style="width: 320px;"><p>Авторизация в системе EasyQuiz</p></div>
+                    <div class="popup_title_img"><img id="IPointerObject4" src="img/close.svg"></div>
+                </div>
+                <div class="popup_form">
+                        <div class="popup_registration_inputform">
+                            <p>Логин:</p>
+                            <input type="text">
+                        </div>
+                        <div class="popup_registration_inputform">
+                            <p>Пароль:</p>
+                            <input type="text">
+                        </div>
+                </div>
+                <button class="popup_registration_button"><p class="popup_registration_button_text">Войти</p></button>
+            </div>
+        </div>
+
+        <div class="popup" id="RegisterPopup">
+            <div class="popup_content wow animate__animated animate__backInRight popup_registration">
+                <div class="popup_title">
+                    <div class="popup_title_text" style="width: 320px;"><p>Регистрация в системе EasyQuiz</p></div>
+                    <div class="popup_title_img"><img id="IPointerObject5" src="img/close.svg"></div>
+                </div>
+                <div class="popup_form">
+                        <div class="popup_registration_inputform">
+                            <p>Логин:</p>
+                            <input type="text">
+                        </div>
+                        <div class="popup_registration_inputform">
+                            <p>Пароль:</p>
+                            <input type="text">
+                        </div>
+                        <div class="popup_registration_inputform">
+                            <p>Имя:</p>
+                            <input type="text">
+                        </div>
+                </div>
+                <button class="popup_registration_button"><p class="popup_registration_button_text">Зарегестрироваться</p></button>
+            </div>
+        </div>
+
+
+    </body>
+    <script>
+        let popupAS=document.getElementById('AboutUsPopup'),
+        popupASToggle=document.getElementById('AboutUs'),
+        popopASClose=document.getElementById('IPointerObject');
+
+        popupASToggle.onclick= function showPopup(){
+                popupAS.style.position="fixed";
+                popupAS.style.display="flex";
+            };
+        popopASClose.onclick= function ClosePopup(){
+            popupAS.style.display="none";
+            popupAS.style.position="none";
+        };
+    </script>
+    <script>
+        let popupC=document.getElementById('ContactPopup'),
+        popupCToggle=document.getElementById('Contacts'),
+        popopCClose=document.getElementById('IPointerObject2');
+
+        popupCToggle.onclick= function showPopup(){
+                popupC.style.position="fixed";
+                popupC.style.display="flex";
+            };
+        popopCClose.onclick= function ClosePopup(){
+            popupC.style.display="none";
+            popupC.style.position="none";
+        };
+    </script>
+    <script>
+        let popupP=document.getElementById('PossibilitiesPopUp'),
+        popupPToggle=document.getElementById('Possibilities'),
+        popopPClose=document.getElementById('IPointerObject3');
+
+        popupPToggle.onclick= function showPopup(){
+                popupP.style.position="fixed";
+                popupP.style.display="flex";
+            };
+        popopPClose.onclick= function ClosePopup(){
+            popupP.style.display="none";
+            popupP.style.position="none";
+        };
+    </script>
+
+    <script>
+        let popupL=document.getElementById('LoginPopup'),
+        popupLToggle=document.getElementById('Login'),
+        popopLClose=document.getElementById('IPointerObject4');
+
+        popupLToggle.onclick= function showPopup(){
+                popupL.style.position="fixed";
+                popupL.style.display="flex";
+            };
+        popopLClose.onclick= function ClosePopup(){
+            popupL.style.display="none";
+            popupL.style.position="none";
+        };
+    </script>
+
+    <script>
+        let popupR=document.getElementById('RegisterPopup'),
+        popupRToggle=document.getElementById('Register'),
+        popopRClose=document.getElementById('IPointerObject5');
+
+        popupRToggle.onclick= function showPopup(){
+                popupR.style.position="fixed";
+                popupR.style.display="flex";
+            };
+        popopRClose.onclick= function ClosePopup(){
+            popupR.style.display="none";
+            popupR.style.position="none";
+        };
+    </script>
+</html>
